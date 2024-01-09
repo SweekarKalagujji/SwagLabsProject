@@ -26,7 +26,3 @@ public class InventoryPageTest extends BaseClass {
 	  ip.addToCart("Sauce Labs Fleece Jacket");
   }
 }
-//If you run this ,it will show error but no exception bcz fEs() doesnt throw an exception.
-//error bcz login isnt done ..prerequisite--inventory page is completly dependent on loginpage.--only before 1st tc login shd be completed -@bc
-//relation btn pages.
-//dependency can be added with the help of annotations..(add dependency btn the tc,not in between class(dependenymethod)
